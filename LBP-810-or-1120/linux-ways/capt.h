@@ -36,7 +36,8 @@
 #ifdef DEBUG
 #define INLINE
 #else
-#define INLINE inline
+#define INLINE static inline
+// #define INLINE inline
 #endif
 
 /* end of file */
